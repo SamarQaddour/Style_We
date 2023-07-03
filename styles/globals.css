@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+ul{
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --cm-color-nav: #f4ff9ae6;
+  --color-input-form:#a2b12ae6;
+  --cm-color-nav-1: #31353c;
+  --cm-color-nav-2: #31353c;
+  --cm-color-nav-3: #5d626a;
+  --cm-color-goods-list-title: #31353c;
+  --cm-color-goods-detail-title-1: #31353c;
+  --cm-color-goods-cart-title: #31353c;
+  --cm-color-goods-detail-title-2: #31353c;
+  --cm-color-goods-detail-text: #5d626a;
+  --cm-color-activity-text: #31353c;
+  --cm-color-goods-detail-list-text: #31353c;
+  --cm-color-list-price: #dc2626;
+  --cm-color-list-price-activity: #dc2626;
+  --cm-color-goods-detail-price: #dc2626;
+  --cm-color-goods-detail-price-activity: #dc2626;
+  --cm-color-cart-total-price: #dc2626;
+  --cm-color-mincart-total-price: #dc2626;
+  --cm-color-hover-link: #000000;
+  --cm-color-primary-btn-bg: #31353C;
+  --cm-color-primary-btn-text: #ffffff;
+  --cm-color-second-btn-text: #31353C;
+  --cm-color-footer-bg: #F2F2F3;
+  --cm-color-footer-text: #31353C;
+  --cm-color-footer-hover-link: #000000;
+  --cm-color-footer-btn-bg: #31353c;
+  --cm-color-footer-btn-text: #ffffff;
+  --cm-color-rating-star: #f59e0b;
+  --cm-font-nav-1: Helvetica;
+  --cm-font-nav-2: Helvetica;
+  --cm-font-nav-3: Helvetica;
+  --cm-font-goods-list-title: Helvetica;
+  --cm-font-goods-detail-title-1: Helvetica;
+  --cm-font-goods-cart-title: Helvetica;
+  --cm-font-goods-detail-title-2: Helvetica;
+  --cm-font-goods-detail-text: Helvetica;
+  --cm-font-activity-text: Helvetica;
+  --cm-font-goods-detail-list-text: Helvetica;
+  --cm-font-list-price: Helvetica;
+  --cm-font-list-price-activity: Helvetica;
+  --cm-font-goods-detail-price: 'Helvetica';
+  --cm-font-goods-detail-price-activity: Helvetica;
+  --cm-font-cart-total-price: Helvetica;
+  --cm-font-mincart-total-price: Helvetica;
+  --cm-font-primary-btn-text: Helvetica;
+  --cm-font-footer-text-1: Helvetica;
+  --cm-font-footer-text-2: Helvetica;
+  --cm-fontweight-nav-1: 600;
+  --cm-fontweight-nav-2: 600;
+  --cm-fontweight-nav-3: 400;
+  --cm-fontweight-goods-list-title: 400;
+  --cm-fontweight-goods-detail-title-1: 400;
+}

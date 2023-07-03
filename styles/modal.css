@@ -1,0 +1,32 @@
+/* modalcart */
+.modalcontainer{
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    backdrop-filter: blur(5px);
+    z-index: 999999999;
+    display: flex;
+    justify-content:flex-end ;
+    width: 100vw;
+    height: 100vh;
+}
+ .modal{
+    background-Color:#fff;
+    width: 600px;
+    height:100vh;
+    boxShadow:0 0 10px rgba(0, 0, 0, 0.3)
+}
+.header  {
+    justify-Content: space-between;
+    display: flex;
+    border-Bottom: 1px solid #dee2e67d;
+    height: 4%;
+    margin-Top:0.7rem
+}
+.header h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: revert;
+}
