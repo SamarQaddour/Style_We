@@ -108,7 +108,7 @@ const LeftSection = () =>{
                                                 <List component="div" disablePadding>
                                                     {item?.attributes?.map((attribute, index) => {
                                                         return (
-                                                            <ListItem button style={{marginBottom:'-1.2rem'}}>
+                                                            <ListItem button style={{marginBottom:'-1.2rem'}} key={index}>
                                                                 <Checkbox style={{color:"black"}}/>
                                                                 <ListItemText primary={attribute} />
                                                             </ListItem>

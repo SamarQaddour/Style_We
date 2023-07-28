@@ -5,13 +5,12 @@ import {AiOutlineRight} from "react-icons/ai";
 import {CheckBox} from "@mui/icons-material";
 import {RiArrowDropDownFill, RiDeleteBin6Line, RiDeleteBinLine} from "react-icons/ri";
 function mycart () {
-    const router = useRouter();
-    const data = router.query.data;
-    const [dataId, setDataId] = useState(null)
+    const Router = useRouter();
+    const data = Router.query.data;
+    const [DataId, setDataId] = useState(null)
     const handleGoHome = () => {
-        router.push('/');
+        Router.push('/');
     };
-    const [active, setActive] = useState(false)
   const modalcontainer = {
         position:'fixed',
         top:'0',
@@ -55,11 +54,11 @@ function mycart () {
   }
 
 useEffect(() =>{
-console.log(data,'data')
-console.log(dataId,'dataId')
+// console.log(data,'data')
+// console.log(DataId,'DataId')
 
     setDataId(data)
-},[dataId])
+},[DataId])
 
 
     return (
@@ -94,11 +93,11 @@ console.log(dataId,'dataId')
                  <div>
                      <div>
                          <CheckBox />
-                         <img src={dataId?.image} alt='not found'/>
+                         <img src={DataId?.image} alt='not found'/>
                      </div>
                      <div>
                          <span>Urban High Waist Plain Fashion Straigh...</span>
-                         <span>5564 {dataId?.price}</span>
+                         <span>5564 {DataId?.price}</span>
                          <span>Black,S <RiArrowDropDownFill /></span>
                          <div>
                              <button> - </button>
