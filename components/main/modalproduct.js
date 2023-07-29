@@ -6,7 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 import {RiArrowDropDownLine} from "react-icons/ri";
 import Link from "next/link";
-import mycart from './myCart'
+import Mycart from './Mycart'
 import {useRouter} from "next/router";
 const size = [
     {value: 'XS(2-4)'},
@@ -34,7 +34,7 @@ const Modalproduct = ({selectedCard, index, handleCardClick, data}) => {
             setDataModal(fetchedData); // set the data state variable
             handleCardClick(null); // close the modal
              router.push({
-                pathname: '/cart/myCart',
+                pathname: '/cart/Mycart',
                 query: { data: JSON.stringify(fetchedData) },
             })
             console.log(data ,'query')
@@ -171,7 +171,7 @@ const Modalproduct = ({selectedCard, index, handleCardClick, data}) => {
 
 
                                          {/*{isLoading ? <CircularProgress size={24} color="inherit" /> :*/}
-                                         {/*    <Link className='button_link'  href={{ pathname: 'cart/myCart', query: {  passData } }}>*/}
+                                         {/*    <Link className='button_link'  href={{ pathname: 'cart/Mycart', query: {  passData } }}>*/}
                                          {/*   Add to Cart*/}
                                          {/*    </Link>*/}
                                          {/*}*/}

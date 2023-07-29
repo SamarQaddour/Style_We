@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {useRouter} from "next/router";
 
-function mycart () {
+function Mycart () {
     const Router = useRouter()
     const { name, age } = Router.query
 
@@ -40,4 +40,4 @@ useEffect(() =>{
     )
 }
 
-export default mycart
+export default Mycart

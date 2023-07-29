@@ -4,7 +4,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import {AiOutlineRight} from "react-icons/ai";
 import {CheckBox} from "@mui/icons-material";
 import {RiArrowDropDownFill, RiDeleteBinLine} from "react-icons/ri";
-function mycart () {
+function Mycart () {
     const Router = useRouter();
     const data = Router.query.data;
     const [DataId, setDataId] = useState(null)
@@ -120,4 +120,4 @@ useEffect(() =>{
     )
 }
 
-export default mycart
+export default Mycart
