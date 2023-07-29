@@ -3,7 +3,7 @@ import {useRouter} from "next/router";
 import CloseIcon from "@mui/icons-material/Close";
 import {AiOutlineRight} from "react-icons/ai";
 import {CheckBox} from "@mui/icons-material";
-import {RiArrowDropDownFill, RiDeleteBin6Line, RiDeleteBinLine} from "react-icons/ri";
+import {RiArrowDropDownFill, RiDeleteBinLine} from "react-icons/ri";
 function mycart () {
     const Router = useRouter();
     const data = Router.query.data;

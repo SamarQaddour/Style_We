@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import {useRouter} from "next/router";
 
 function mycart () {
-    const router = useRouter()
-    const { name, age } = router.query
+    const Router = useRouter()
+    const { name, age } = Router.query
 
 const modalcontainer = {
         position:'fixed',
